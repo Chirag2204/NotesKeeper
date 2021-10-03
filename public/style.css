@@ -1,0 +1,93 @@
+body {
+    background-color: #42403c;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    font-size: 15px;
+    background-color: orange;
+    height: 70px;
+    text-align: left;
+    margin: -16px;
+    color: #f2ecd8;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+header h1{
+    padding: 10px 20px;
+    font-family: "McLaren", cursive;
+}
+button{
+   border-radius: 50%;
+   background-color: orange;
+   width: 50px;
+   height: 50px;
+   border-color: white;
+   color: white;
+   position: sticky;
+}
+
+footer {
+    color: grey;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+input{
+    outline : none;
+    border-width: 0;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+textarea{
+    outline : none;
+    border-width: 0;
+    display: flex;
+    margin-bottom: 20px;
+     font-size: 1.3rem;
+     width  :400px;
+     height : 90px;
+}
+form{
+    margin  :20px;
+}
+
+.note {
+    background-color: white;
+    color: #383631;
+    width: 340px;
+    height : auto;
+    float: left;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin: 40px 20px;
+}
+
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userInput{
+    background-color: white;
+    color: grey;
+    width: 500px;
+    height : 200px;
+    margin: auto;
+    float: left;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+.totalContainer{
+    margin-top: 40px;
+    display : flex;
+    flex-direction: column;
+}
+.text{
+  margin-bottom: 20px;
+}
